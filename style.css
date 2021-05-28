@@ -23,22 +23,21 @@
     height: 50%;
     background-color: darkgray;
   }
-
   @media screen and (max-width: 600px) {
     .container .box {
       flex-basis: 100%;
-      margin: 5px;
+      margin: 4px;
     }
   }
   @media screen and (min-width: 601px) and (max-width: 1024px) {
     .container .box {
-      flex-basis: calc(50% - 2 * 20px);
-      margin: 10px;
+      flex-basis: calc(50% - 2 * 16px);
+      margin: 8px;
     }
   }
   @media screen and (min-width: 1025px) {
     .container .box {
-      flex-basis: calc(25% - 2 * 20px);
-      margin: 20px;
+      flex-basis: calc(25% - 2 * 16px);
+      margin: 16px;
     }
   }
