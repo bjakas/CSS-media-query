@@ -10,6 +10,7 @@
     align-items: flex-start;
   }
   .container .box {
+    /* grow shrink auto*/
     flex: 1 1 auto;
     transition: margin 1s ease-in-out;
   }
@@ -28,7 +29,7 @@
       flex-basis: 100%;
       margin: 4px;
     }
-    .no-show-2, .no-show-3 {
+    .no-show-tablet, .no-show-laptop {
       display: none;
     }
   }
@@ -37,7 +38,7 @@
       flex-basis: calc(50% - 2 * 16px);
       margin: 8px;
     }
-    .no-show-3 {
+    .no-show-laptop {
       display: none;
     }
   }
