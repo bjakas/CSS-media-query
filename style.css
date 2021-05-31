@@ -10,7 +10,7 @@
     align-items: flex-start;
   }
   .container .box {
-    /* grow shrink auto*/
+    /* grow shrink basis - ako ne znamo ide auto*/
     flex: 1 1 auto;
     transition: margin 1s ease-in-out;
   }
